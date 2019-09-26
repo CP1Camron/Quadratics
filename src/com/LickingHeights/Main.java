@@ -7,7 +7,7 @@ public class Main {
 
 
         //todo declare variables a,b,c,discriminant, axisOfSymmetry,parabolaFacing, x,y
-        double a,b,c,discriminant,axisOfSymetry,x,y;
+        double a,b,c,discriminant,axisOfSymmetry,x,y;
         String parabolaFacing;
 
         //todo initialize manually
@@ -15,7 +15,8 @@ public class Main {
         b=3
         c=1
         //todo calculations
-
+        axisOfSymmetry = -b/(2*a);
+        discriminant = (b*b)-4*(a*c);
         //todo print results
 
         //todo not in code check results

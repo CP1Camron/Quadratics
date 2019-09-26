@@ -11,12 +11,22 @@ public class Main {
         String parabolaFacing;
 
         //todo initialize manually
-        a=5
-        b=3
-        c=1
+        a=5;
+        b=3;
+        c=1;
         //todo calculations
         axisOfSymmetry = -b/(2*a);
         discriminant = (b*b)-4*(a*c);
+        if(discriminant > 0) {
+            System.out.println("There are two real solutions");
+
+        }
+        else if (discriminant == 0) {
+            System.out.println("There is one real solution");
+        }
+        else{
+            System.out.println("There are NO real solutions");
+        }
         //todo print results
         System.out.println("Axis of symmetry: "+axisOfSymmetry);
         System.out.println("Discriminant: "+discriminant);

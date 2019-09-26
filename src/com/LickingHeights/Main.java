@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        
+
         //todo declare variables a,b,c,discriminant, axisOfSymmetry,parabolaFacing, x,y
 
         //todo initialize manually
